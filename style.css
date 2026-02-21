@@ -18,12 +18,14 @@ body {
   align-items: center;
   padding: 32px 16px;
 }
-.profile-card {
-  display: flex;           /* grid에서 flex로 변경 */
-  flex-direction: column;  /* 위에서 아래 방향으로 정렬 */
-  align-items: center;     /* 가운데 정렬 */
-  text-align: center;      /* 글자도 가운데 정렬 */
-  gap: 16px;               /* 사진과 글자 사이 간격 */
+.profile-card,
+.section-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px 24px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+  border: 1px solid #e5e7eb;
 }
 
 .profile-card {
@@ -149,6 +151,7 @@ body {
   white-space: pre-line; 
 
 }
+
 
 
 
