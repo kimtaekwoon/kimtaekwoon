@@ -117,19 +117,16 @@ body {
 
 .info-item {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  font-size: 13px;
 }
 
 .info-label {
-  color: #9ca3af; 
-  font-size: 13px;
-  margin-right: 8px;
-  min-width: 30px;
+  color: #9ca3af;
+  margin-bottom: 2px;
 }
 
 .info-value {
-  color: #374151; 
-  font-size: 13px;
   font-weight: 500;
 }
 
@@ -147,6 +144,7 @@ body {
   white-space: pre-line; 
 
 }
+
 
 
 
