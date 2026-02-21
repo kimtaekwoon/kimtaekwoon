@@ -91,10 +91,6 @@ body {
 }
 
 
-.container {
-  width: 100%;
-  max-width: 600px; 
-}
 
 
 .profile-right h2 {
@@ -151,6 +147,7 @@ body {
   white-space: pre-line; 
 
 }
+
 
 
 
